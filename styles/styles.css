@@ -1,0 +1,193 @@
+/* Purvansh Dwivedi
+
+/* colour palette */
+:root {
+--mustard-yellow: #E5AF42;
+--cornflower-blue: #4278e5;
+}
+
+body {
+width: 950px;
+margin:  auto;
+font-family: 'Montserrat', sans-serif;
+line-height: 1.5;
+}
+
+.flex {
+display: flex;
+}
+
+h1 {
+font-size: 48px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h2 {
+font-size: 36px;
+margin-bottom: 12px;
+line-height: 1;
+}
+
+.large-text {
+font-size: 24px;
+}
+
+.fake-button {
+background-color: var(--mustard-yellow);
+text-align: center;
+line-height: 3;
+border: 1px solid black;
+}
+
+a {
+color: black;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.main a:hover,
+.footer a:hover,
+.fake-button:hover,
+.blue-hover:hover {
+text-decoration: underline;
+background-color: var(--cornflower-blue);
+color: white;
+cursor: pointer;
+}
+
+header,
+footer {
+background-color: var(--mustard-yellow);
+}
+
+header {
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px;
+}
+
+header img {
+width: 100px;
+height: 100px;
+margin-right: 25px;
+}
+
+header h1 {
+margin: 0;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main {
+margin-top: 25px;
+margin-bottom: 50px;
+}
+
+footer {
+height: 60px;
+font-weight: 200;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.index-container {
+display: flex;
+}
+
+.index-text {
+flex: 1;
+}
+
+.index-image {
+width: 300px;
+margin-left: 25px;
+margin-bottom: 50px;
+}
+
+.index-text h2 {
+line-height: 36px;
+}
+
+.index-text p {
+margin-bottom: 12px;
+}
+
+.index-buttons {
+display: flex;
+justify-content: center;
+}
+
+.fake-button:not(:last-child) {
+margin-right: 150px;
+}
+
+.bookings-container {
+width: 600px;
+margin: 0 auto;
+text-align: center;
+}
+
+.bookings-container * {
+text-align: left;
+font-size: 18px;
+}
+
+.day-selectors {
+margin-bottom: 12px;
+}
+
+.day-selectors li {
+margin-bottom: 20px;
+width: 60px;
+border: 1px solid black;
+padding: 5px;
+}
+
+.small-button {
+border: 1px solid black;
+padding: 5px;
+margin: 5px;
+}
+
+.top-margin {
+margin-top: 24px;
+margin-bottom: 12px;
+}
+
+.clear-days-button {
+width: 200px;
+}
+
+.clicked {
+background-color: var(--mustard-yellow);
+}
+
+.contact-container {
+height: 420px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contact-form {
+display: flex;
+justify-content: center;
+}
+
+.dog-image {
+    height: 200px;
+    width: auto;
+  }
+  
